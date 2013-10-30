@@ -1,4 +1,3 @@
-
 ######################
 # MEZZANINE SETTINGS #
 ######################
@@ -78,7 +77,7 @@
 # INSTALLED_APPS setting.
 USE_SOUTH = True
 
-
+ALLOWED_HOSTS = ['*']
 ########################
 # MAIN DJANGO SETTINGS #
 ########################
