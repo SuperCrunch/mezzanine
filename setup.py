@@ -34,7 +34,7 @@ install_requires = [
     "pytz >= 2013b",
     "requests==1.2.3",
     "requests-oauthlib > 0.3.2, < 0.4",
-    "gunicorn",
+    "gunicorn==18.0",
 ]
 
 try:
