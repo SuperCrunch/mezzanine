@@ -327,6 +327,10 @@ DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 #     "NEVERCACHE_KEY": NEVERCACHE_KEY,
 # }
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': True,
+}
 
 ##################
 # LOCAL SETTINGS #
